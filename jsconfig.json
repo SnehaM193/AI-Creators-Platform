@@ -3,14 +3,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      // THIS IS THE MISSING ALIAS for "@components/theme-provider"
+      // EXISTING ALIASES
       "@components/*": ["components/*"],
-      
-      // Include the other common alias if your project uses it
-      "@/components/*": ["components/*"],
-      
-      // Include the alias for your utilities
-      "@/lib/*": ["lib/*"]
+      "*/components/": ["components/*"],
+      "*/lib/": ["lib/*"],
+
+      // 👇 ADD THIS ENTRY TO RESOLVE @/ to the root directory
+      "@/*": ["./*"]
     }
   },
   "exclude": ["node_modules"]
