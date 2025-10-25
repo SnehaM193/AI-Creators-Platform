@@ -1,5 +1,5 @@
 # Creatr - AI Creator Platform
-![Landing Page]()
+![Landing Page](public/Landing.png)
 
 > An AI Creator Platform that allows users to effortlessly generate and manage AI-driven content. Integrated rich text editing, image handling, and seamless cloud storage for a smooth user experience. 
 
